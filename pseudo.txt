@@ -1,0 +1,65 @@
+# Find the Largest Number(Until user enters 0):
+
+1. Start
+2. Set largest_number to 0
+3. Repeat
+    a. Ask user to enter a positive number
+    b. Store input in number
+    c. If number > largest_number then
+        i. Set largest_number to number
+4. Until number is 0
+5. Print "The largest number entered is", largest_number
+6. End
+
+# Greet the user by name:
+
+1. Start
+2. Ask user to enter their name
+3. Store input in variable first_name
+4. Print first_name + " Hello, World"
+5. End
+
+# Calculate Arithmetic Average of Any Number of Integers
+
+1. Start
+2. Set total to 0
+3. Set count to 0
+4. Repeat
+    a. Ask user to enter a number (or type 'done' to finish)
+    b. If input is not 'done' then
+        i. Convert input to a number
+        ii. Add number to total
+        iii. Increase count by 1
+5. Until user enters 'done'
+6. If count is greater than 0 then
+    a. Set average to total divided by count
+    b. Print "The average is", average
+7. Else
+    a. Print "No numbers were entered"
+8. End
+
+# Grocery List
+
+1. Start
+2. Create a list called grocery_list with all products
+3. Create an empty list called bought_items
+4. Repeat
+    a. Ask user which item they bought (or type 'done' to finish)
+    b. If input is not 'done' then
+        i. Add item to bought_items
+5. Until user types 'done'
+6. Set left_to_buy to grocery_list minus bought_items
+7. Sort left_to_buy in alphabetical order
+8. Print "Items left to buy:"
+9. For each item in left_to_buy
+    a. Print item
+10. End
+
+# Flowchart
+
+1. Round variables x and y
+2. Create following variables:
+    a. s = x + y
+    b. a = s/2
+    c. p = X x y
+3. Print S,A, P

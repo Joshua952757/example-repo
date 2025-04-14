@@ -1,0 +1,8 @@
+text = input("Please enter a string: ")
+alt_chars = ''.join([c.upper() if i % 2 == 0 else c.lower() 
+                     for i, c in enumerate(text)])
+print("Alternate characters:", alt_chars)
+words = text.split()
+alt_words = ' '.join([w.lower() if i % 2 == 0 else w.upper()
+                      for i, w in enumerate(words)])
+print("Alternate words:", alt_words)

@@ -1,0 +1,6 @@
+liano_jordan, Complete login module, Implement the login functionality using the credentials from user.txt., 5 February 2025, 23 March 2025, Yes
+vuyo_smith, Create task viewer, Develop a way for users to view their tasks from tasks.txt., 11 March 2025, 4 April 2025, No
+yanga_jackson, Implement task adding feature, Create the feature that allows admins to assign new tasks., 12 March 2025, 3 April 2025, Yes
+
+vuyo_smith, login monitor, monitoring backend code of login function, 17 June 2025, 11 Apr 2025, Yes/No
+vuyo_smith, login maintenance, maintaining cloud linked to software., 7 October 2025, 13 Apr 2025, No
